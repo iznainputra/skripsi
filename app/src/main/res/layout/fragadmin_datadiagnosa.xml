@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_login">
+
+    <android.support.design.widget.FloatingActionButton
+        android:visibility="invisible"
+        android:outlineSpotShadowColor="@color/colorPrimaryDark"
+        android:background="@color/darkBlue"
+        android:id="@+id/newdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/diagawaladmin_recycler"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_add_black_48dp"
+        android:layout_margin="18dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/diagawaladmin_recycler">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

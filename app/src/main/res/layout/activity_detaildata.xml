@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:paddingTop="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/firstaid"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/editno"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:hint="No"
+
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editnama"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:hint="Nama"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/editno_tlp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="No. Tlp"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/editemail"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Email"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/edittmp_lahir"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Tempat Lahir"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/edittgl_lahir"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Tgl Lahir"
+                android:focusable="false"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/editalamat"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Alamat"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/editberat_badan"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Berat Badan"
+                android:inputType="text" />
+
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/editusername"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Username"
+                android:inputType="text" />
+
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/editpassword"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/editkonf_pass"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:hint="Konfirmasi Password"
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/btn_login"
+                    android:text="Save" />
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/btn_login"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

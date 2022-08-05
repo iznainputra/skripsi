@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@color/Blue"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/emailing"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/et_bg"
+            android:hint="Email"
+            android:inputType="text"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_login"
+            android:text="Okay" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_marginLeft="25dp"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_login"
+            android:text="Cancel" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

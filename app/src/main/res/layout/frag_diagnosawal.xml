@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login">
+
+   <android.support.v7.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:visibility="invisible"
+       android:id="@+id/diagawal_recycler">
+   </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/t_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tes"/>
+    <TextView
+        android:visibility="invisible"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/bb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bb"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="Hi, "/>
+        <TextView
+            android:id="@+id/nm"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="nama"/>
+         </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:text="Do you want to start screening or initial diagnosis for the initial symptoms of depression? "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn_mulai"
+            android:background="@drawable/btn_login"
+            android:textColor="#ffffff"
+            android:text="Start"/>
+    </LinearLayout>
+
+</RelativeLayout>

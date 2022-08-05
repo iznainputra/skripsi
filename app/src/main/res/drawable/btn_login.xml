@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:color="@color/login_formdetails" android:width="2dp"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <stroke android:color="@color/login_formdetails_light" android:width="2dp"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+</selector>
